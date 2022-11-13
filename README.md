@@ -1,7 +1,7 @@
 ## Picture Search Engine with React.Js
+	powered by [Unsplash API](https://unsplash.com)
 
-
-Hosted on Netlify. Click here to visit.
+Hosted on Netlify. Click [here](https://picturesearchunsplashreact.netlify.app/) to visit.
 
 A simple Image search engine using an Extenal API called Unsplash.
 
