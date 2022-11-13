@@ -1,9 +1,13 @@
 import React from "react";
-
+import ImageCard from "./ImageCard";
 const ImagesList = (props) => {
     console.log(props.images)
-return (<div>
 
+    const images = props.images.map((image)=>{
+        return <ImageCard key = {image.id} image={image} />
+    })
+return (<div>
+    {images}
 </div>);
 }
 
